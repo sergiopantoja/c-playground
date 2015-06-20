@@ -21,18 +21,14 @@ main()
         // word ended! increment the proper histogram "bin" based on the length
         total++;
 
-        if (length >= 10) {
+        if (length >= 10)
           data[3]++;
-        }
-        else if (length >= 7) {
+        else if (length >= 7)
           data[2]++;
-        }
-        else if (length >= 4) {
+        else if (length >= 4)
           data[1]++;
-        }
-        else if (length >= 1) {
+        else if (length >= 1)
           data[0]++;
-        }
 
         length = 0;
       }
