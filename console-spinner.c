@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-main()
+int main()
 {
   int delay = 100000;
 
@@ -14,4 +14,6 @@ main()
     usleep(delay);
     fflush(stdout);
   }
+
+  return 0;
 }

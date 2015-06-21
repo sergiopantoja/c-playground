@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main()
 {
   int c;
   int found_space = 0;
@@ -16,4 +16,6 @@ main()
       found_space = 0;
     }
   }
+
+  return 0;
 }

@@ -4,7 +4,7 @@
 #define INWORD   1
 #define BARLEN   100
 
-main()
+int main()
 {
   // start counting word length
   int c, i, total, bars;
@@ -66,4 +66,6 @@ main()
   for (i = 0; i < bars; i++)
     printf("=");
   printf(" %d words\n", data[3]);
+
+  return 0;
 }

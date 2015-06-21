@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main()
 {
   int c;
   long char_count = 0;
@@ -13,4 +13,6 @@ main()
   }
 
   printf("%ld chars, %ld lines\n", char_count, line_count);
+
+  return 0;
 }
